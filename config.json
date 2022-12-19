@@ -1,0 +1,27 @@
+{
+	"name": {
+		"zh-cn": "E-Mail发送电子邮件",
+		"en": "email"
+	},
+	"description": {
+		"zh-cn": "Python模式使用smtplib库和email库实现发送电子邮件功能",
+		"en": "email"
+	},
+	"author": "liliang",
+	"email": "969316753@qq.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "pyemail",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"python": {
+			"dir": "python/",
+			"version": "0.0.1",
+			"main": "main.ts",
+			"dependencies": {
+			}
+		  }
+	   
+	}
+}

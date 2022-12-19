@@ -1,0 +1,6 @@
+{
+    "pyemail.setMail|block": "初始化邮件发送服务 发件人邮箱:[FMAIL] 收件人邮箱:[TMAIL]",
+    "pyemail.setServer|block": "设置邮箱服务器 授权码:[ACC] IMAP服务器:[SERVER] 端口:[PORT]",
+    "pyemail.sendmail|block": "发送邮件 标题:[TITLE] 正文:[MESS]"
+
+}
