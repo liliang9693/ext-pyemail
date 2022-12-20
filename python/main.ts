@@ -61,7 +61,7 @@ def smtp_send_mail(title,content):
     export function sendmail(parameter: any, block: any) {
         let title = parameter.TITLE.code;
         let mess = parameter.MESS.code;
-        Generator.addCode(`smtp_send_mail(${title},'${mess}')`);
+        Generator.addCode(`smtp_send_mail(${title},${mess})`);
  
     }
     function replaceQuotationMarks(str:string){
